@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.post{
+  width: 380px;
+
+  overflow: hidden;
+ 
+  margin: 0 auto;
+}
+img{
+  width: 380px;
+  height: auto;
+  display: block;
+  }
+  [class^="anh-container"]
+   {
+    justify-content: center;
+    }
+.anh-container1{
+ position: relative;
+}
+.lop-phu{
+  background-color: rgb(75, 73, 73);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 380px;
+  
+  
+  
+}
+.view{
+  display: flex;
+  right: 10px;
+}
+.tieu-de{
+  font-size: 14px;
+  text-align: center;
+}
+.anh-container2{
+  position: relative;
+  z-index: 1;      
+}
+
+.layout{
+  position: absolute;
+
+  z-index: 2;
+  color: #ede4e4;
+ 
+  top: 0;          
+  left: 0;  
+  width: 100%;
+  height: 100%;
+  
+ }
+
+.button-red{
+  position: absolute;
+  
+    left: 10px;
+    top: 10px;
+  border-radius: 5px;
+  width:80px ;
+  height: 40px;
+  background: rgba(240, 79, 61, 0.5);
+  
+}
+#text{
+  
+   
+ font-size: 15px;
+  font-weight: 700;
+  color: #f1ebf2;
+  
+}
+.title{
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+.quytrinhab{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+.line{
+  width: 2px;
+  height: 5px;
+  background: black;
+ margin: 0 auto;
+}
+  
+.anh-container3{
+  position: relative;
+  z-index: 1;
+}
+.layout1{
+  position: absolute;
+  z-index: 2;
+ left: 10px;
+ bottom: 10px;
+ color: #f2eded;
+ justify-content: space-between;
+}

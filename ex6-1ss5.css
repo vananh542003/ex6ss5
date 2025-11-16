@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .post {
+    width: 380px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Ảnh full width */
+  img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Fix selector */
+  [class^="anh-container"] {
+    position: relative;
+  }
+  
+  /* Lớp phủ ở bài 1 */
+  .lop-phu {
+    background: rgb(75, 73, 73);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .view {
+    display: flex;
+  }
+  
+  .tieu-de {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Nút đỏ */
+  .button-red {
+    background-color: red;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  #text {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f1ebf2;
+  }
+  
+  /* Layout nằm hết trong ảnh */
+  .layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Fix container 2 */
+  .anh-container2 {
+    position: relative;
+  }
+  
